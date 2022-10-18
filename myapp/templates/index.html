@@ -1,0 +1,22 @@
+{% extends 'layouts/base.html' %} {% load static %} {% block content %}
+
+<h1 class="title">{{ title }}</h1>
+
+<figure class="logo-container">
+  <img
+    src="{% static 'django.png' %}"
+    alt="django loco"
+    class="logo"
+    width="100"
+  />
+</figure>
+
+<p class="django-presentation">
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
+  blanditiis. Maxime itaque et adipisci fuga voluptatibus quibusdam nobis
+  incidunt dolor autem. Nam cumque officia pariatur aut qui error rerum
+  adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+  reprehenderit cupiditate impedit voluptatibus.  
+</p>
+
+{% endblock %}
